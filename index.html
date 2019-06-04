@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gmail Signup Form</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/laptop.css">
+    <link rel="stylesheet" type="text/css" href="css/tablet.css">
+    <link rel="stylesheet" type="text/css" href="css/mobile.css">
+    <link rel="stylesheet" type="text/css" href="css/large.css">
+    <link rel="stylesheet" type="text/css" href="fonts/open_sans/open_sans_fonts.css">
+    <link rel="stylesheet" type="text/css" href="fonts/Roboto/roboto.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css">
+    <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>-->
+    <script src="./js/jquery.js"></script>
+    <script src="./js/index.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="container__body">
+            <div class="container__left">
+                <form action="javascript:void(0)">
+
+                    <img class="container__left--googleicon" src="images/google.png">
+                    <h2>Create Your Google Account</h2>
+                    <div class="container__two__col">
+                        <div class="col__left">
+                            <input type="text" placeholder="First name" id="firstname" class="name">
+                            <span class="firstnameerr"><svg
+                                xmlns="https://www.w3.org/2000/svg"
+                                aria-hidden="true" focusable="false"
+                                width="16px" height="16px" viewBox="0 0
+                                24 24" fill="#e51c23"><path d="M12
+                                    2C6.48 2 2 6.48 2 12s4.48 10 10 10
+                                    10-4.48 10-10S17.52 2 12 2zm1
+                                    15h-2v-2h2v2zm0-4h-2V7h2v6z"></path><path
+                                    d="M0 0h24v24H0z" fill="none"></path></svg>Enter Username
+                                </span>
+                        </div>
+                        <div class="col__right">
+                            <input type="text" placeholder="Phone Number" id="phonenum" class="ph">
+                            <span class="phonenum"><svg
+                                xmlns="https://www.w3.org/2000/svg"
+                                aria-hidden="true" focusable="false"
+                                width="16px" height="16px" viewBox="0 0
+                                24 24" fill="#e51c23"><path d="M12
+                                    2C6.48 2 2 6.48 2 12s4.48 10 10 10
+                                    10-4.48 10-10S17.52 2 12 2zm1
+                                    15h-2v-2h2v2zm0-4h-2V7h2v6z"></path><path
+                                    d="M0 0h24v24H0z" fill="none"></path></svg>Enter Valid Phone Number
+                                </span>
+                        </div>
+                    </div>
+                    <div class="col__full">
+                        <span>
+                            <input type="email" placeholder="Username" id="usermail" class="mail"></span>
+                        <div class="gmail"><span>@gmail.com</span></div>
+                        <span class="usermail"><svg
+                            xmlns="https://www.w3.org/2000/svg"
+                            aria-hidden="true" focusable="false"
+                            width="16px" height="16px" viewBox="0 0
+                            24 24" fill="#e51c23"><path d="M12
+                                2C6.48 2 2 6.48 2 12s4.48 10 10 10
+                                10-4.48 10-10S17.52 2 12 2zm1
+                                15h-2v-2h2v2zm0-4h-2V7h2v6z"></path><path
+                                d="M0 0h24v24H0z" fill="none"></path></svg>Choose a Gmail address</span>
+                        <p>you can use letter, numbers & periods</p>
+                    </div>
+
+                    <div class="instead">
+                        <a href="#">Use my current email address instead</a>
+                    </div>
+
+                    <div class="container__two__col">
+                        <div class="col_1 col__left">
+                            <input id="pass" type="password" class="pwd
+                                    psd1" name="password" placeholder="Password">
+                            <span toggle="#password-field" class="fa fa-fw
+                                    fa-eye field-icon toggle-password"></span>
+                            <span class="pass"><svg
+                                xmlns="https://www.w3.org/2000/svg"
+                                aria-hidden="true" focusable="false"
+                                width="16px" height="16px" viewBox="0 0
+                                24 24" fill="#e51c23"><path d="M12
+                                    2C6.48 2 2 6.48 2 12s4.48 10 10 10
+                                    10-4.48 10-10S17.52 2 12 2zm1
+                                    15h-2v-2h2v2zm0-4h-2V7h2v6z"></path><path
+                                    d="M0 0h24v24H0z" fill="none"></path></svg>Enter Password </span>
+                        </div>
+                        <div class="col_2 col__right">
+                            <input type="password" id="fakepass" class="pwd
+                                    psd2" placeholder="Confirm">
+                            <span class="fakepass"><svg
+                                        xmlns="https://www.w3.org/2000/svg"
+                                        aria-hidden="true" focusable="false"
+                                        width="16px" height="16px" viewBox="0 0
+                                        24 24" fill="#e51c23"><path d="M12
+                                            2C6.48 2 2 6.48 2 12s4.48 10 10 10
+                                            10-4.48 10-10S17.52 2 12 2zm1
+                                            15h-2v-2h2v2zm0-4h-2V7h2v6z"></path><path
+                                            d="M0 0h24v24H0z" fill="none"></path></svg>Confirm your Password</span>
+
+                            <span class="matchpass"><svg
+                                                xmlns="https://www.w3.org/2000/svg"
+                                                aria-hidden="true" focusable="false"
+                                                width="16px" height="16px" viewBox="0 0
+                                                24 24" fill="#e51c23"><path d="M12
+                                                    2C6.48 2 2 6.48 2 12s4.48 10 10 10
+                                                    10-4.48 10-10S17.52 2 12 2zm1
+                                                    15h-2v-2h2v2zm0-4h-2V7h2v6z"></path><path
+                                                    d="M0 0h24v24H0z" fill="none"></path></svg>Those passwords didn't match. Try again.</span>
+
+                        </div>
+                        <div class="col_3 col__left pwd">
+                            <input type="checkbox" onclick="passFunction()">
+                        </div>
+                        <p class="accept">Must Accept Terms & Conditions
+                        </p>
+                        <p>use 8 letters or more with a mixture of numbers & charecters</p>
+                    </div>
+
+                    <div class="container__two__col">
+                        <div class="ftr__btns">
+                            <div class="signin col__left"><a href="#">Sign
+                                        in instead</a></div>
+                            <div class="next col__right">
+                                <!-- <button type="submit" onclick="Submit()">submit</button> -->
+                                <a href="#" onclick="Submit()">Next</a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="container__right">
+                <img src="images/glogo.png">
+                <p>One account. All of Google working for you.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

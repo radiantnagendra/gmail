@@ -1,0 +1,24 @@
+ { /* hi-res laptops and desktops */ }
+ @media (min-width:1281px){
+.container{
+	width: 750px;
+    display: grid;
+    margin: 0 auto;
+    border: 1px solid #d2d2d2;
+    box-shadow: 1px 1px 1px gainsboro;
+    border-radius: 20px;
+    padding: 30px;
+    position:relative;
+    left:0;
+    right:0;
+    top:32px;
+    bottom:0;
+    margin:auto;
+    overflow:auto;
+}
+
+.container__left {
+    width: 60%;
+    display: inline-block;
+    float: left;
+}}

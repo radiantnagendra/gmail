@@ -1,0 +1,38 @@
+/*/*tablets, ipads (portrait)*/
+@media (min-width: 768px) and (max-width: 1024px){
+.container{
+	width: 450px;
+    display: grid;
+    margin: 0 auto;
+    border: 1px solid #d2d2d2;
+    box-shadow: 1px 1px 1px gainsboro;
+    border-radius: 20px;
+    padding: 30px;
+    position: relative;
+    left: 0;
+    top: 50px;
+    right: 0;
+    bottom: 30px;
+}
+*/
+/*tablets, ipads (landscape)*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+.container{
+	width: 450px;
+    display: grid;
+    margin: 0 auto;
+    border: 1px solid #d2d2d2;
+    box-shadow: 1px 1px 1px gainsboro;
+    border-radius: 20px;
+    padding: 30px;
+    position: relative;
+    left: 0;
+    top: 50px;
+    right: 0;
+    bottom: 30px;
+}
+.container__left {
+    width: 100%;
+    display: inline-block;
+    float: left;
+}}

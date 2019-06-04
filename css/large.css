@@ -1,0 +1,93 @@
+ {
+     /* hi-res laptops and desktops */
+ }
+ 
+ @media (min-width:1281px) {
+     .container {
+         width: 700px;
+         display: grid;
+         margin: 0 auto;
+         border: 1px solid #d2d2d2;
+         box-shadow: 1px 1px 1px gainsboro;
+         border-radius: 10px;
+         padding: 30px;
+         position: relative;
+         left: 0;
+         right: 0;
+         top: 32px;
+         bottom: 0;
+         margin: auto;
+         overflow: auto;
+     }
+     .col__full input {
+         width: 89%;
+     }
+     .container__two__col .col__left,
+     .container__two__col .col__right {
+         width: 49%;
+         display: inline-block;
+     }
+     .container__two__col .col_1,
+     .container__two__col .col_2 {
+         width: 42%;
+         display: inline-block;
+         vertical-align: top;
+     }
+     .container__two__col .col_3 {
+         width: 10%;
+     }
+     .container__left {
+         width: 60%;
+         display: inline-block;
+         float: left;
+     }
+     input {
+         padding: 10px;
+         height: 12px;
+         border: 1px solid #cacaca;
+         border-radius: 5px;
+         margin: 10px 0px 3px;
+         outline: none;
+         width: 80%;
+     }
+     input[type=email] {
+         width: 68%;
+         border-radius: 5px 0px 0px 5px;
+         border-width: 1px 0px 1px 1px;
+         border-color: #cacaca;
+         border-style: solid;
+         outline: none;
+         margin: 14px 0px 3px;
+         padding: 10px;
+         height: 12px;
+     }
+     .gmail {
+         pointer-events: none;
+         display: inline;
+         font-size: 13px;
+         border-width: 1px 1px 1px 0px;
+         border-color: #cacaca;
+         border-style: solid;
+         border-radius: 0px 5px 5px 0px;
+         margin: 10px -4px 3px;
+         padding: 7px;
+         height: 13px;
+     }
+     .next a {
+         background-color: #297ae6;
+         padding: 10px 40px;
+         color: #ffffff;
+         text-decoration: none;
+         font-weight: 500;
+         border-radius: 6px;
+         vertical-align: middle;
+         margin: 0 30%;
+         width: 100px !important;
+     }
+     .pwd input {
+         margin-top: 20px;
+     }
+     .signin .col__left {
+         vertical-align: middle;
+     }
+ }

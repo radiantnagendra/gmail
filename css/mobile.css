@@ -1,0 +1,187 @@
+/*low resolution tablets, mobiles (landscape)*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .container {
+        width: 450px;
+        display: grid;
+        margin: 0 auto;
+        position: relative;
+        left: 0;
+        top: 50px;
+        right: 0;
+        bottom: 30px;
+    }
+    .container-body {
+        width: 100%;
+        display: block;
+    }
+    .col__full {
+        display: inline;
+        width: 100%;
+    }
+    .col__full input {
+        display: inline;
+    }
+    .container__two__col .col__left,
+    .container__two__col .col__right {
+        width: 100;
+        display: grid;
+    }
+    .container__left {
+        width: 100%;
+        display: grid;
+        float: left;
+    }
+    .container__right {
+        display: none;
+    }
+    input {
+        padding: 10px;
+        height: 12px;
+        border: 1px solid #cacaca;
+        border-radius: 5px;
+        margin: 10px 0px 3px;
+        outline: none;
+        display: inline-flex;
+    }
+    input[type=email] {
+        width: 76%;
+        border-radius: 5px 0px 0px 5px;
+        border-width: 1px 0px 1px 1px;
+        border-color: #cacaca;
+        border-style: solid;
+        outline: none;
+        margin: 14px 0px 3px;
+        padding: 10px;
+        height: 12px;
+    }
+    .gmail {
+        pointer-events: none;
+        display: inline;
+        font-size: 13px;
+        border-width: 1px 1px 1px 0px;
+        border-color: #cacaca;
+        border-style: solid;
+        border-radius: 0px 5px 5px 0px;
+        margin: 10px -7px 3px;
+        padding: 7px;
+        height: 13px;
+    }
+    .next a {
+        background-color: #297ae6;
+        padding: 10px 40px;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 500;
+        border-radius: 6px;
+        vertical-align: top;
+        float: right;
+        width: 100px !important;
+        text-align: center;
+    }
+    .signin a {
+        float: left;
+        padding: 10px 0;
+        text-decoration: none;
+        font-weight: bold;
+        color: #1a73e8;
+        vertical-align: middle;
+    }
+    .signin .col__left {
+        vertical-align: middle;
+    }
+}
+
+
+/*smartphones mobiles (portrait)*/
+
+@media (min-width: 240px) and (max-width: 480px) {
+    .container {
+        width: 300px;
+        display: grid;
+        margin: 0 auto;
+        position: relative;
+        left: 0;
+        top: 50px;
+        right: 0;
+        bottom: 30px;
+    }
+    .container-body {
+        width: 100%;
+        display: block;
+    }
+    .col__full {
+        display: inline;
+        width: 100%;
+    }
+    .col__full input {
+        display: inline;
+    }
+    .container__two__col .col__left,
+    .container__two__col .col__right {
+        width: 100%;
+        display: grid;
+    }
+    .container__left {
+        width: 100%;
+        display: grid;
+        float: left;
+    }
+    .container__right {
+        display: none;
+    }
+    input {
+        padding: 10px;
+        height: 12px;
+        border: 1px solid #cacaca;
+        border-radius: 5px;
+        margin: 10px 0px 3px;
+        outline: none;
+        display: grid;
+    }
+    input[type=email] {
+        width: 64%;
+        border-radius: 5px 0px 0px 5px;
+        border-width: 1px 0px 1px 1px;
+        border-color: #cacaca;
+        border-style: solid;
+        outline: none;
+        margin: 14px 0px 3px;
+        padding: 10px;
+        height: 12px;
+    }
+    .gmail {
+        display: inline;
+        font-size: 13px;
+        border-width: 1px 1px 1px 0px;
+        border-color: #cacaca;
+        border-style: solid;
+        border-radius: 0px 5px 5px 0px;
+        margin: 10px -7px 3px;
+        padding: 7px;
+        height: 13px;
+    }
+    .next a {
+        background-color: #297ae6;
+        padding: 10px 40px;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 500;
+        border-radius: 6px;
+        vertical-align: top;
+        float: right;
+        width: 100px !important;
+        text-align: center;
+    }
+    .signin a {
+        float: left;
+        padding: 10px 0;
+        text-decoration: none;
+        font-weight: bold;
+        color: #1a73e8;
+        vertical-align: middle;
+    }
+    .signin .col__left {
+        vertical-align: middle;
+    }
+}
