@@ -36,7 +36,7 @@
         margin: 10px 0px 3px;
         outline: none;
     }
-    input[type=email] {
+    .col__full input[type=text] {
         width: 68%;
         border-radius: 5px 0px 0px 5px;
         border-width: 1px 0px 1px 1px;
