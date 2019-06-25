@@ -87,13 +87,6 @@ function Submit() {
         //document.getElementById('fakepass').style.border = "1px solid #cacaca";
     }
 
-    if (pword == fakepwd) {
-        $('.matchpass').css('display', 'none');
-        $('.psd2').css('border-color', '#cacaca');
-    } else {
-        $('.matchpass').css('display', 'block');
-        $('.psd2').css('border', '2px solid #d50000');
-    }
 }
 
 function passFunction() {
